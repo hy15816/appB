@@ -33,6 +33,7 @@
     
 }
 
+//收到通知的处理
 -(void)acceptFromAnotherAppName:(NSNotification *)notity
 {
     self.navigationController.navigationBar.hidden = NO;
